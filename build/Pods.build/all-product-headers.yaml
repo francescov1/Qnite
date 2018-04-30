@@ -1,0 +1,118 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Choidog/Developer/Projects/Qnight/build/Debug-iphoneos/Bolts/Bolts.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BFAppLink.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFAppLink.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkNavigation.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFAppLinkNavigation.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkResolving.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFAppLinkResolving.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererController.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererController.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkReturnToRefererView.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFAppLinkReturnToRefererView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFAppLinkTarget.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFAppLinkTarget.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationToken.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFCancellationToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenRegistration.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFCancellationTokenSource.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFCancellationTokenSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFExecutor.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFExecutor.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFMeasurementEvent.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFMeasurementEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTask+Exceptions.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFTask+Exceptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTask.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFTaskCompletionSource.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/BFTaskCompletionSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFURL.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "BFWebViewAppLinkResolver.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/iOS/BFWebViewAppLinkResolver.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-Swift.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts-umbrella.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Target Support Files/Bolts/Bolts-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Bolts.h",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/Pods/Bolts/Bolts/Common/Bolts.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Choidog/Developer/Projects/Qnight/build/Debug-iphoneos/Bolts/Bolts.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Choidog/Developer/Projects/Qnight/build/Pods.build/Debug-iphoneos/Bolts.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

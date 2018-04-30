@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E45A00EA64A483E402029E9CD6BC9D5BC4AC4216",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E45A00EA64A483E402029E9CD6BC9D5BC4AC4216" : 9223372036854775807,
+    "D8BD520A913D9D99E3499E94F4097ECE1645FB47" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3537D6BF-362D-4ADC-AF59-5FD861A61604",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E45A00EA64A483E402029E9CD6BC9D5BC4AC4216" : "Qnight\/",
+    "D8BD520A913D9D99E3499E94F4097ECE1645FB47" : "..\/Learning\/iCarousel"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Qnight",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Qnight.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicklockwood\/iCarousel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D8BD520A913D9D99E3499E94F4097ECE1645FB47"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/choidog\/Qnight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E45A00EA64A483E402029E9CD6BC9D5BC4AC4216"
+    }
+  ]
+}

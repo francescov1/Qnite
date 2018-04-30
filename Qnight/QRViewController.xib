@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QRViewController" customModule="Qnight" customModuleProvider="target">
+            <connections>
+                <outlet property="qrImageView" destination="rA6-46-mZU" id="wew-8T-XdY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYB-qJ-KOn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zh5-Kt-d7I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXy-48-0ig">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="zk5-IC-4KR">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rA6-46-mZU">
+                                            <rect key="frame" x="62" y="208" width="250" height="250"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="250" id="SGG-RW-vsI"/>
+                                                <constraint firstAttribute="width" secondItem="rA6-46-mZU" secondAttribute="height" multiplier="1:1" id="p0V-zG-nyx"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <gestureRecognizers/>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="id3-Nw-yYg" appends="YES" id="HxH-xY-ftL"/>
+                                    </connections>
+                                </view>
+                                <vibrancyEffect>
+                                    <blurEffect style="light"/>
+                                </vibrancyEffect>
+                            </visualEffectView>
+                        </subviews>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rA6-46-mZU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6X8-qd-yn3"/>
+                <constraint firstAttribute="bottom" secondItem="HYB-qJ-KOn" secondAttribute="bottom" id="7MB-Dt-50A"/>
+                <constraint firstItem="HYB-qJ-KOn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GGA-nd-2yD"/>
+                <constraint firstItem="HYB-qJ-KOn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HFi-Ko-DTk"/>
+                <constraint firstItem="rA6-46-mZU" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Wzo-E8-fAu"/>
+                <constraint firstAttribute="trailing" secondItem="HYB-qJ-KOn" secondAttribute="trailing" id="fXD-AL-KN1"/>
+            </constraints>
+        </view>
+        <tapGestureRecognizer id="id3-Nw-yYg">
+            <connections>
+                <action selector="viewWasTapped:" destination="-1" id="PWJ-mo-fMZ"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
